@@ -13,4 +13,3 @@ cp "${source_dir}/${file_name}" "${dest_dir}/${file_name}"
 # Print a success message
 echo "File ${file_name} has been successfully copied from ${source_dir} to ${dest_dir}."
 
-echo "231231232"
