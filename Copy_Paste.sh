@@ -1,11 +1,11 @@
 #! /usr/bin/bash
 
 # Enter the source and destination directory paths below
-source_dir="/path/to/source/directory"
-dest_dir="/path/to/destination/directory"
+source_dir="C:/xampp2/htdocs"
+dest_dir="C:/Users/nabil/Desktop/PHP-Projects/oee-rating"
 
 # Enter the filename of the file you want to copy
-file_name="example.txt"
+file_name="OEE_Rating.php"
 
 # Use the 'cp' command to copy the file from source directory to destination directory
 cp "${source_dir}/${file_name}" "${dest_dir}/${file_name}"
