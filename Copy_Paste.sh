@@ -1,8 +1,8 @@
 #! /usr/bin/bash
 
 # Enter the source and destination directory paths below
-source_dir="C:/xampp2/htdocs"
-dest_dir="C:/Users/nabil/Desktop/PHP-Projects/oee-rating"
+source_dir="C:/Users/nabil/Desktop/PHP-Projects/oee-rating"
+dest_dir="C:/xampp2/htdocs"
 
 # Enter the filename of the file you want to copy
 file_name="OEE_Rating.php"
