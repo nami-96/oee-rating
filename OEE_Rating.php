@@ -31,8 +31,7 @@
     }
 
     ?>
-
-    <div>HELLO WORLD HELLO NABIL HELLO EVERYONE</div>
+    
     <table class="table">
         <thead>
         <tr>
