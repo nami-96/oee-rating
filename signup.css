@@ -1,0 +1,23 @@
+
+form {
+    padding-top: 10%;
+}
+.form-outline{
+    margin:auto;
+    padding-top: 15px;
+    width: 30%;
+}
+
+.form-label{
+    padding-top: 15px;
+}
+
+.button {
+    text-align: center;
+
+}
+
+.login {
+    text-align: center;
+    padding-top: 10px;
+}
