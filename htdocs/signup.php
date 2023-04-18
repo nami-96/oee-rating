@@ -11,7 +11,13 @@
 
         if(!empty($user_name) && !empty($password) && !is_numeric($user_name))
         {
-            $query = "insert into users (user_id, user_name,password) values (user_id, user_name,password)";
+            $user_id = random_num(20);
+            $query = "insert into users (user_id, user_name,password) values ('$user_id','$user_name','$password')"; //save input data into database
+
+            mysqli_query($con,$query);
+
+            header("Location: login.php");
+            die;
         }
         else
         {
