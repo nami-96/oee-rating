@@ -35,8 +35,8 @@
 <form method="post">
     <!-- Email input -->
     <div class="form-outline mb-1">
-        <input type="text" id="form1Example1" class="form-control" name="user_name"/>
-        <label class="form-label" for="form1Example1">Email address</label>
+        <input type="text" id="form1Example1" class="form-control" name="user_name" placeholder="nami"/>
+        <label class="form-label" for="form1Example1">Username</label>
     </div>
 
     <!-- Password input -->
