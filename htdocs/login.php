@@ -53,13 +53,13 @@ session_start();
 <form method="post">
     <!-- Email input -->
     <div class="form-outline mb-1">
-        <input type="email" id="form1Example1" class="form-control" placeholder="123@email.com"/>
-        <label class="form-label" for="form1Example1">Email address</label>
+        <input type="text" id="form1Example1" class="form-control" placeholder="nami" name="user_name"/>
+        <label class="form-label" for="form1Example1">Username</label>
     </div>
 
     <!-- Password input -->
     <div class="form-outline mb-1">
-        <input type="password" id="form1Example2" class="form-control" />
+        <input type="password" id="form1Example2" class="form-control" name="password" />
         <label class="form-label" for="form1Example2">Password</label>
     </div>
 
