@@ -6,7 +6,7 @@ session_start();
 
     if($_SERVER['REQUEST_METHOD'] == "POST")
     {
-        $user_name = $_POST['user_name'];
+        $user_name = $_POST['user_name']; //$_POST associative array used to retrieve username that was submit by form.
         $password = $_POST['password'];
 
         if(!empty($user_name) && !empty($password) && !is_numeric($user_name))
